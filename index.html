@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Colour Changer</title>
+        <h1>Changeable Webpage!</h1>
+        <div id="css">
+            <link href="./style.css" type="text/css" rel="stylesheet">
+	   </div>
+    </head>
+    
+    <body id="background">
+        
+        <div id="instructions">
+            <p>Hello! Welcome to my interactive webpage. On this webpage, you are able to select a section of the page, and modify it by pressing the buttons at the bottom!</p>
+        </div>
+        
+        <div id="left_side">
+            <p id="text">Hey! This is the left side!</p>
+        </div>
+        
+        <div id="middle">
+            <p id="text">Hey, this is the middle.</p>
+        </div>
+        
+        <div id="right_side">
+            <p id="text">How are you? Welcome to the right side!</p>
+        </div>
+        
+        
+        <div id="buttons">
+            <button onclick="selectElement('background')">Background</button>
+        
+            <button onclick="selectElement('left_side')">Left Side</button>
+            
+            <button onclick="selectElement('middle')">Middle</button>
+            
+            <button onclick="selectElement('right_side')">Right Side</button>
+            
+            <button onclick="reset()">**RESET**</button>
+        </div>
+        
+        <div id="colours">
+            <button onclick="red()" style="background-color: red; color: white;">Red</button>
+            
+            <button onclick="blue()" style="background-color: blue; color: white;">Blue</button>
+            
+            <button onclick="green()" style="background-color: green; color: white;">Green</button>
+            
+            <button onclick="yellow()" style="background-color: yellow;">Yellow</button>
+        </div>
+        
+        <div id="text">
+            <p id="current"></p>
+        </div>
+        
+        <div id="scripts">
+            <script src="./main.js" language="JavaScript" type="text/javascript"></script>
+        </div>
+    </body>
+    
+</html>
