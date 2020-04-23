@@ -1,6 +1,6 @@
 # Assignment #11: Colour Changer
 
-**This assignment is a webpage that allows the user to change and customize the colours of the elements.> View this project at: walker.rout.ca**
+**This assignment is a webpage that allows the user to change and customize the colours of the elements. View this project at: ```walker.rout.ca```**
 
 ## Getting Started With the Project
 
