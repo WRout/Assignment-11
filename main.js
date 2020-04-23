@@ -11,17 +11,17 @@ function selectElement (element){
         
     } else if (element === "left_side"){
         this.element = document.getElementById("left_side");
-        document.getElementById("current").innerHTML = "Currently Selected: Left Block";
+        document.getElementById("current").innerHTML = "Currently Selected: Left Side";
         console.log(element);
         
     } else if (element === "middle"){
         this.element = document.getElementById("middle");
-        document.getElementById("current").innerHTML = "Currently Selected: Middle Block";
+        document.getElementById("current").innerHTML = "Currently Selected: Middle";
         console.log(element);
         
     } else if (element === "right_side"){
         this.element = document.getElementById("right_side");
-        document.getElementById("current").innerHTML = "Currently Selected: Right Block";
+        document.getElementById("current").innerHTML = "Currently Selected: Right Side";
         console.log(element);
         
     } else {
